@@ -1,0 +1,86 @@
+body{
+    background: #CCEAFF;
+}
+
+#beranda{
+    background: #033BFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    height: 50px;
+}
+
+#wrapper{
+    width: 1200px;
+    margin:auto;
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+.item li{
+    margin-right: 100px;
+    list-style: none;
+}
+
+.item li a{
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav #login{
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.item2 li{
+    list-style: none;
+}
+
+.item2 li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#form-page{
+    width: 400px;
+    height: 100px;
+    background: #fff;
+    padding: 40px 32px 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 12px;
+}
+
+h1 a{
+    color: #03A2FC;
+}
+
+h2{
+    color: blue;
+}
+
+#form-isi-page{
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+
+#form-isi-page button{
+    
+    cursor: pointer;
+    color: white;
+    background: #10B8ED;
+    width: 100px;
+    height: 40px;
+}

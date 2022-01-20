@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <div id="beranda">
+        <div id="wrapper">
+            <nav>
+                <ul class="item">
+                    <li>
+                        <a href="home.html" onclick="loadContent()">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="cek resi.html" onclick="loadContent2()">Cek Resi</a>
+                    </li>
+                    <li>
+                        <a href="konfirmasi.html" onclick="loadContent3()">Konfirmasi</a>
+                    </li>
+                    <li>
+                        <a href="kategori.html" onclick="loadContent4()">Kategori</a>
+                    </li>
+                    <li>
+                        <a href="bantuan.html" onclick="loadContent5()">Bantuan</a>
+                    </li>
+                </ul>
+                <div id="login">
+                   <ul class="item2">
+                       <li>
+                           <a href="login.html" onclick="loadContent6()">Login</a>
+                       </li>
+                   </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <div id="konfirmasi-page">
+        <div id="text-area">
+            <h1><a href="home.html" onclick="loadContent()">Beranda</a> >> Konfirmasi</h1>
+            <hr>
+        </div>
+        <div id="informasi">
+            <h2>Konfirmasi</h2>
+            <p>Lakukan konfirmasi setelah anda melakukan transfer pembayaran ke rekening kami agar pesanan anda dapat kami proses. Silahkan isi formulir Konfirmasi Pembayaran di bawah ini.</p>
+        </div>
+        <div id="form-page">
+            <div id="form-isi-page">
+                <h3>Perhatian : Kolom yang berisi tanda (*) wajib di isi</h3>
+                <table>
+                    <tr>
+                        <td widht="120" >Nama Anda*</td>
+                        <td></td>
+                        <td><input type="text" name="nama" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Invoice ID*</td>
+                        <td></td>
+                        <td><input type="text" name="invoice_id" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Tanggal Transfer*</td>
+                        <td></td>
+                        <td><input type="text" name="tanggal_transfer" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Ke Rekening*</td>
+                        <td></td>
+                        <td><input type="text" name="ke_rekening" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Jumlah Transfer*(RP)</td>
+                        <td></td>
+                        <td><input type="text" name="jumlah_transfer" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Email Aktif*</td>
+                        <td></td>
+                        <td><input type="email" name="email_aktif" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Nomor HP/Telpon*</td>
+                        <td></td>
+                        <td><input type="number" name="nomor_telpon" required></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Ket Tambahan</td>
+                        <td></td>
+                        <td><input type="text" name="ket_tambahan"></td> 
+                    </tr>
+                    <tr>
+                        <td widht="120" >Kode Keamanan*</td>
+                        <td></td>
+                        <td><input type="text" name="kode_keamanan" required></td> 
+                    </tr>
+                    <tr>
+                        <td></td>
+                            <td></td>
+                            <td>
+                                <button type="submit" name="simpan">Konfirmasi</button>
+                            </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

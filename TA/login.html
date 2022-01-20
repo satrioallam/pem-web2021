@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style5.css">
+    <script href="script.js"></script>
+</head>
+<body>
+    <div id="beranda">
+        <div id="wrapper">
+            <nav>
+                <ul class="item">
+                    <li>
+                        <a href="home.html" onclick="loadContent()">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="cek resi.html" onclick="loadContent2()">Cek Resi</a>
+                    </li>
+                    <li>
+                        <a href="konfirmasi.html" onclick="loadContent3()">Konfirmasi</a>
+                    </li>
+                    <li>
+                        <a href="kategori.html" onclick="loadContent4()">Kategori</a>
+                    </li>
+                    <li>
+                        <a href="bantuan.html" onclick="loadContent5()">Bantuan</a>
+                    </li>
+                </ul>
+                <div id="login">
+                   <ul class="item2">
+                       <li>
+                           <a href="login.html" onclick="loadContent6()">Login</a>
+                       </li>
+                   </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <div id="login-page">
+        <div id="text-area">
+            <h1>IOO.STORE</h1>
+        </div>
+        <div id="form">
+            <div id="form-header">
+                <h2>Masuk</h2>
+                <a href="daftar.html" onclick="loadContent7()">Daftar</a>
+            </div>
+                <div id="form-login">
+                    <div>
+                        <input type="text" name="username" placeholder="Enter Username" id="user">
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <div>
+                            <input type="text" name="password" placeholder="Enter Password" id="pass">
+                        </div>
+                    </div>
+                <div id="form-submit">
+                    <a href="www.google.com">Lupa Kata Sandi</a>
+                    <form>
+                        <button action="submit" onclick="startLog()">Login</button>
+                        <p id="akses"></p>
+                    </form>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
